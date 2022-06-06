@@ -40,3 +40,42 @@ html::-webkit-scrollbar-thumb{
     background:var(--yellow);
 }
 
+body{
+    background:#111;
+    overflow: hidden;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    height: 100%;
+    width: 35rem;
+    background:#1a1a1a;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 17rem;
+    width:17rem;
+    border-radius: 50%;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border: 0.5rem solid var(--yellow);
+}
+
+header .user .name{
+
+    font-size: 3.5rem;
+    color: #ffffff;   
+}
+
+header .user .post{
+    font-size: 2rem;
+    color:#eee;
+}

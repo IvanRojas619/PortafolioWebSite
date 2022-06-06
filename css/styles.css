@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@1&family=Nunito:wght@200;300;400;600&family=Work+Sans:wght@400;500;800&display=swap');
+
+:root{
+--yellow:#f9ca24;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+*::selection{
+background: var(--yellow);
+color:#333;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* These styles add cool colors to the scroll bar*/
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+
+    background:#222 ;
+
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--yellow);
+}
+

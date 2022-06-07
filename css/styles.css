@@ -45,6 +45,7 @@ body{
     overflow: hidden;
 }
 
+/*Header styles including the burger menu */
 header{
     position:fixed;
     top:0;
@@ -66,6 +67,7 @@ header .user img{
     border-radius: 50%;
     background-size: cover;
     margin-bottom: 1rem;
+    margin-top: 2rem;
     border: 0.5rem solid var(--yellow);
 }
 
@@ -130,9 +132,28 @@ header .navbar ul li a:hover{
 
 @media(max-width: 991px){
     header{
-        left:-120px;
+        left:-120%;
     }
     #menu{
         display: block;
     }
+
+    header.toggle{
+        left:0%;
+    }
+
+}
+
+@media(max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+
+}
+
+@media(max-width: 400px){
+    header{
+        width: 100vw;
+    }
+
 }

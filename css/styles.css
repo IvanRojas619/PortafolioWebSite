@@ -168,6 +168,7 @@ header .navbar ul li a:hover{
     padding:0 15rem;
 }
 
+/*Home styles */
 .home h3{
     font-size: 2.5rem;
     color:#fff;
@@ -187,7 +188,7 @@ header .navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
-
+/*About styles*/
 .about .row{
     display: flex;
     align-items: center;
@@ -238,7 +239,7 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
 }
-
+/*Education styles*/
 .education .box-container{
     display: flex;
     align-items: center;
@@ -289,6 +290,38 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
     background:var(--yellow);
+} 
+
+/*Portafolio styles*/
+
+.portafolio .box-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.portafolio .box-container .box{
+
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portafolio .box-container .box img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.portafolio .box-container .box img:hover{
+
+    transform: scale(1.2);
+
 }
 
 
@@ -344,6 +377,10 @@ header .navbar ul li a:hover{
     }
 
     .education .box-container .box{
+        width: 100%;
+    }
+
+    .portafolio .box-container .box{
         width: 100%;
     }
 

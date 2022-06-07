@@ -79,3 +79,60 @@ header .user .post{
     font-size: 2rem;
     color:#eee;
 }
+
+header .navbar{
+    width: 100%;
+
+}
+
+header .navbar ul{
+
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+header .navbar ul li a:hover{
+    background-color: var(--yellow);
+}
+
+#menu{
+    position: fixed;
+    top: 2rem;
+    right:2rem;
+    background-color: #333;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+
+
+}
+
+/*media queries*/
+
+@media(max-width: 1200px){
+    html{
+        font-size: 55%;  
+    }    
+}
+
+@media(max-width: 991px){
+    header{
+        left:-120px;
+    }
+    #menu{
+        display: block;
+    }
+}

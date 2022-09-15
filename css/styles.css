@@ -324,6 +324,11 @@ header .navbar ul li a:hover{
 
 }
 
+.box_min{
+    
+    text-align: center;
+}
+
 /*Contact styles*/
 
 .contact .row{

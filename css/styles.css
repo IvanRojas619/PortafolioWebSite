@@ -223,16 +223,18 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box{
-    width:20rem;
+    width:22rem;
     background:#222;
     text-align: center;
     padding: 2rem;
     margin:2rem;
 }
 
+
 .about .row .counter .box span{
     font-size: 4rem;
     color:var(--yellow);
+   
 }
 
 .about .row .counter .box h3{
@@ -328,6 +330,8 @@ header .navbar ul li a:hover{
     
     text-align: center;
 }
+
+
 
 /*Contact styles*/
 
